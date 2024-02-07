@@ -1,11 +1,21 @@
-# Demo: Git Workflow
+# Class 03 Demo
 
-## Demo Instructions
+Let's use git locally on a cloned repository and see what happens!
 
-Follow along with the presenter notes in the slides, to have students work through their first ACP cycles.
+## My favorite resources
 
-Then, demo the process again, on your own machine.
+- [Google](https://www.google.com)
+- [ChatGPT](https://chat.openai.com)
 
-Show the full cycle to update an existing file.
+## Hobbies of mine
 
-Show the full cycle to add a new file. Include a markdown link back to the original file.
+- Music
+- Craps
+- Talking
+
+## Chores
+
+- Scoop Poop
+- Dishes
+- Walk the dogs
+- Take out trash
