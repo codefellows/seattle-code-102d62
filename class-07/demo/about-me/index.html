@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>All About Dogs!</title>
+        <link rel="stylesheet" href="stylesheets/styles.css" />
+    </head>
+
+    <body>
+
+        <header>
+            <h1>All About Dogs</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="help.html">Help</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+              <h2>Output Section</h2>
+
+              <ul>
+                <li>
+                  <script>
+                    // Declare a variable called "dogs"
+                    // Assign it the value of whatever "prompt" does
+                    // Prompt will pop a window and ask a question
+                    let dogs = prompt("How many dogs do you have?");
+                    dogs = Number(dogs);
+                    let sentence = "Wow! You have " + dogs + " dogs";
+                    document.write(sentence);
+                  </script>
+                </li>
+
+                <li>
+                  <script>
+                    let cats = confirm("Would you like a cat?");
+                    if( cats === true ) {
+                      document.write("Why do you like cats?");
+                    } else {
+                      document.write("Smart!");
+                    }
+                  </script>
+                </li>
+
+                <li>
+                  <script src="js/color.js"></script>
+                </li>
+
+              </h3>
+
+
+            </section>
+            <section>
+                <img width="100%" src="images/rosie.png" />
+            </section>
+
+            <section>
+                <p>This is one of John's Dogs, Rosie!</p>
+                <ul>
+                    <li>Boxer</li>
+                    <li>Lab</li>
+                    <li>Chow</li>
+                    <li>Husky</li>
+                    <li>?????</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <h2>Copyright(c) 2024 John</h2>
+        </footer>
+
+    </body>
+</html>
