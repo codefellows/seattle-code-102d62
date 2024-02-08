@@ -3,6 +3,7 @@
     <head>
         <title>All About Dogs!</title>
         <link rel="stylesheet" href="stylesheets/styles.css" />
+        <script src="js/app.js"></script>
     </head>
 
     <body>
@@ -27,25 +28,13 @@
 
               <ul>
                 <li>
-                  <script>
-                    // Declare a variable called "dogs"
-                    // Assign it the value of whatever "prompt" does
-                    // Prompt will pop a window and ask a question
-                    let dogs = prompt("How many dogs do you have?");
-                    dogs = Number(dogs);
-                    let sentence = "Wow! You have " + dogs + " dogs";
-                    document.write(sentence);
-                  </script>
+                  <script> numberOfDogs(); </script>
                 </li>
 
                 <li>
                   <script>
-                    let cats = confirm("Would you like a cat?");
-                    if( cats === true ) {
-                      document.write("Why do you like cats?");
-                    } else {
-                      document.write("Smart!");
-                    }
+                   let youLikeCats = doYouLikeCats();
+                   document.write(youLikeCats);
                   </script>
                 </li>
 
@@ -76,6 +65,5 @@
         <footer>
             <h2>Copyright(c) 2024 John</h2>
         </footer>
-
     </body>
 </html>
